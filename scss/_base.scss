@@ -1,0 +1,21 @@
+.main{
+    background-image: linear-gradient(to right, #ff6ca2, #ffa424);
+}
+html{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1;
+    font-family:  'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: $text-color;
+}

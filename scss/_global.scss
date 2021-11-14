@@ -1,0 +1,69 @@
+#particles-js {
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #ff6ca2, #ffa424); 
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a {
+    text-decoration: none;
+  }
+img {
+    display: block;
+    max-width: 100%;
+}
+.heading{
+    font-size: 35px;
+    color: $heading-color;
+    // margin-bottom: 40px;
+}
+.desc{
+    line-height: 1.4;
+    margin-bottom: 40px;
+    &-mt-40{
+        margin-top: 40px;
+    }
+}
+.title{
+    font-size: 24px;
+    color: $heading-color;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.time{
+    display: block;
+    color: $text-color;
+    font-weight: 400;
+    margin: 4px 0 12px;
+}
+.icon{
+    font-size: 40px;
+    // margin-right: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0px 3px 8px rgb(46, 46, 46);
+    background-image: linear-gradient(to right, #ff6ca2, #ffa424);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.mb-8{
+    margin-bottom: 16px;
+    line-height: 1.6;
+
+}
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
